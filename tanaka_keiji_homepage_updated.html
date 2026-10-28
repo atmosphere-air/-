@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>田中啓路さんのホームページ</title>
+  <style>
+    /* シンプルなレトロプロフィールサイト */
+    body {
+      margin: 0;
+      padding: 18px;
+      background: #fff;
+      color: #111;
+      font-family: "ＭＳ Ｐゴシック", "MS PGothic", Osaka, sans-serif;
+      font-size: 16px;
+      line-height: 1.65;
+    }
+
+    .page {
+      max-width: 850px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+      border-bottom: 1px solid #999;
+      padding: 8px 0 14px;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      font-size: 28px;
+      margin: 8px 0;
+      font-weight: bold;
+    }
+
+    .welcome {
+      margin: 0;
+      font-size: 14px;
+    }
+
+    nav {
+      text-align: center;
+      margin: 16px 0 22px;
+      padding: 8px;
+      border: 1px solid #aaa;
+      background: #f7f7f7;
+    }
+
+    nav a {
+      margin: 0 8px;
+      white-space: nowrap;
+    }
+
+    a {
+      color: #00e;
+      text-decoration: underline;
+    }
+
+    a:visited {
+      color: #551a8b;
+    }
+
+    a:hover {
+      color: #f00;
+    }
+
+    section {
+      margin: 24px 0;
+    }
+
+    h2 {
+      color: #00e;
+      font-size: 20px;
+      border-bottom: 1px solid #aaa;
+      padding-bottom: 4px;
+      margin-bottom: 12px;
+    }
+
+    .profile-table {
+      border-collapse: collapse;
+      width: 100%;
+      max-width: 620px;
+    }
+
+    .profile-table th,
+    .profile-table td {
+      text-align: left;
+      border: 1px solid #ccc;
+      padding: 7px 10px;
+      vertical-align: top;
+    }
+
+    .profile-table th {
+      background: #f2f2f2;
+      width: 28%;
+      font-weight: normal;
+    }
+
+    .notice-list {
+      padding-left: 24px;
+    }
+
+    .notice-list li {
+      margin: 7px 0;
+    }
+
+    footer {
+      margin-top: 32px;
+      padding-top: 12px;
+      border-top: 1px solid #999;
+      text-align: center;
+      font-size: 12px;
+      color: #555;
+    }
+
+    @media (max-width: 520px) {
+      body {
+        padding: 12px;
+        font-size: 15px;
+      }
+
+      h1 {
+        font-size: 23px;
+      }
+
+      nav a {
+        display: inline-block;
+        margin: 4px 6px;
+      }
+
+      .profile-table th {
+        width: 32%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <p class="welcome">Welcome to my homepage!</p>
+      <h1>田中啓路さんのホームページ</h1>
+      <p class="welcome">田中啓路のプロフィール・趣味・活動情報</p>
+    </header>
+
+    <nav aria-label="ページ内メニュー">
+      <a href="#profile">プロフィール</a> |
+      <a href="#hobby">趣味</a> |
+      <a href="#activity">活動内容</a> |
+      <a href="#news">お知らせ</a>
+    </nav>
+
+    <main>
+      <section id="profile">
+        <h2>■ PROFILE</h2>
+        <table class="profile-table">
+          <tbody>
+            <tr><th>名前</th><td>田中啓路</td></tr>
+            <tr><th>生年月日</th><td>（ここに入力）</td></tr>
+            <tr><th>住所</th><td>和歌山県岩出市</td></tr>
+            <tr><th>身長</th><td>小さめ</td></tr>
+            <tr><th>免許</th><td>普通自動車運転免許 所持</td></tr>
+            <tr><th>自己紹介</th><td>こんにちは。田中啓路のホームページへようこそ！<br>このページでは、プロフィールや趣味、活動について紹介しています。</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="hobby">
+        <h2>■ HOBBY</h2>
+        <p>スロットと麻雀が好き。勝つ日もあれば、負ける日もある……最近はよく負けています。</p>
+        <ul>
+          <li>スロット</li>
+          <li>麻雀</li>
+        </ul>
+      </section>
+
+      <section id="activity">
+        <h2>■ ACTIVITY</h2>
+        <p>現在の活動や取り組んでいることを紹介します。</p>
+        <ul>
+          <li>小学生時代、テニスで賞を獲得。</li>
+        </ul>
+      </section>
+
+      <section id="news">
+        <h2>■ INFORMATION</h2>
+        <ul class="notice-list">
+          <li><strong>お知らせ：</strong>普通自動車運転免許を所持しています。</li>
+          <li><strong>更新情報：</strong>プロフィールを更新しました。</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>田中啓路さんのホームページ</p>
+      <p>Copyright &copy; Keiji Tanaka. All Rights Reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
